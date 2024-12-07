@@ -3,6 +3,9 @@ Phase Diagram Calculator in ThermoCalc with Python
 
 This repository contains a Python script that automates the generation of phase diagram data using Thermo-Calc via the `tc_python` API. It systematically varies the compositions of a multi-component alloy system and computes the corresponding phase diagrams, saving the results for later analysis.
 
+![thermocalc_code](https://github.com/user-attachments/assets/c094cfd6-d40f-4671-b7fb-cba9022a7581)
+
+
 ## Features
 
 - Generate a mesh of compositions for a specified set of elements.
