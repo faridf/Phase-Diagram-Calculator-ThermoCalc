@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ```
 
-##Usage
+## Usage
 To run the phase diagram calculations, ensure that tc_python is installed and properly set up. Then, execute the script:
 
 Clone or download the repository to your local machine.
@@ -43,7 +43,9 @@ indices_of_changing_elements and indices_of_constant_elements: Specify which ele
 temperature_range: Define the temperature range for phase diagram calculations.
 steps_in_temperature: Adjust the resolution of the temperature axis.
 output_dir: Set the directory for saving results.
-Results
+
+
+## Results
 The output files are stored as .pkl files, each corresponding to a specific composition. These files contain the phase diagram data grouped by stable phases. To load and analyze the data, use the included load_groups function:
 
 ```python
